@@ -1,4 +1,4 @@
-package com.springbootpoll.springbootpoll.repositories;
+package com.springbootpoll.springbootpoll.repository;
 
 
 

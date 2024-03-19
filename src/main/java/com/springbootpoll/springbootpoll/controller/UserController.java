@@ -10,7 +10,7 @@ import com.springbootpoll.springbootpoll.repository.VoteRepository;
 import com.springbootpoll.springbootpoll.security.UserPrincipal;
 import com.springbootpoll.springbootpoll.service.PollService;
 import com.springbootpoll.springbootpoll.security.CurrentUser;
-import com.springbootpoll.springbootpoll.util.AppConstants;
+import com.springbootpoll.util.AppConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

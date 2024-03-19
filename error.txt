@@ -1,0 +1,80 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.springbootpoll:springbootpoll >------------------
+[INFO] Building springbootpoll 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ springbootpoll >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ springbootpoll ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ springbootpoll ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 46 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/security/JwtTokenProvider.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/security/JwtTokenProvider.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/controller/AuthController.java: C:\Users\user\Desktop\Springboot-Poll\src\main\java\com\springbootpoll\springbootpoll\controller\AuthController.java uses unchecked or unsafe operations.
+[INFO] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/controller/AuthController.java: Recompile with -Xlint:unchecked for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[62,17] cors() in org.springframework.security.config.annotation.web.builders.HttpSecurity has been deprecated and marked for removal
+[WARNING] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[63,21] and() in org.springframework.security.config.annotation.SecurityConfigurerAdapter has been deprecated and marked for removal
+[WARNING] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[64,17] csrf() in org.springframework.security.config.annotation.web.builders.HttpSecurity has been deprecated and marked for removal
+[WARNING] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[66,17] exceptionHandling() in org.springframework.security.config.annotation.web.builders.HttpSecurity has been deprecated and marked for removal
+[WARNING] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[68,21] and() in org.springframework.security.config.annotation.SecurityConfigurerAdapter has been deprecated and marked for removal
+[WARNING] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[69,17] sessionManagement() in org.springframework.security.config.annotation.web.builders.HttpSecurity has been deprecated and marked for removal
+[WARNING] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[71,21] and() in org.springframework.security.config.annotation.SecurityConfigurerAdapter has been deprecated and marked for removal
+[INFO] 7 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[29,37] cannot find symbol
+  symbol: class WebSecurityConfigurerAdapter
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[41,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[49,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[51,16] cannot find symbol
+  symbol:   variable super
+  location: class com.springbootpoll.springbootpoll.config.SecurityConfig
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[59,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[73,21] cannot find symbol
+  symbol:   method antMatchers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  location: class org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer<org.springframework.security.config.annotation.web.builders.HttpSecurity>.ExpressionInterceptUrlRegistry
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/security/JwtAuthenticationEntryPoint.java:[19,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/security/JwtAuthenticationFilter.java:[30,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/security/JwtAuthenticationFilter.java:[40,93] incompatible types: javax.servlet.http.HttpServletRequest cannot be converted to jakarta.servlet.http.HttpServletRequest
+[INFO] 9 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.282 s
+[INFO] Finished at: 2024-03-18T17:57:08+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project springbootpoll: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[29,37] cannot find symbol
+[ERROR]   symbol: class WebSecurityConfigurerAdapter
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[41,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[49,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[51,16] cannot find symbol
+[ERROR]   symbol:   variable super
+[ERROR]   location: class com.springbootpoll.springbootpoll.config.SecurityConfig
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[59,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/config/SecurityConfig.java:[73,21] cannot find symbol
+[ERROR]   symbol:   method antMatchers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+[ERROR]   location: class org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer<org.springframework.security.config.annotation.web.builders.HttpSecurity>.ExpressionInterceptUrlRegistry
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/security/JwtAuthenticationEntryPoint.java:[19,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/security/JwtAuthenticationFilter.java:[30,5] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/user/Desktop/Springboot-Poll/src/main/java/com/springbootpoll/springbootpoll/security/JwtAuthenticationFilter.java:[40,93] incompatible types: javax.servlet.http.HttpServletRequest cannot be converted to jakarta.servlet.http.HttpServletRequest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

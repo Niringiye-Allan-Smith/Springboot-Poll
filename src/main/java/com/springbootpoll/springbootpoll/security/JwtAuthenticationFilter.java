@@ -1,6 +1,7 @@
 package com.springbootpoll.springbootpoll.security;
 
-
+import com.springbootpoll.springbootpoll.security.JwtTokenProvider;
+import com.springbootpoll.springbootpoll.security.CustomUserDetailsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,5 +54,13 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             return bearerToken.substring(7, bearerToken.length());
         }
         return null;
+    }
+
+    @Override
+    protected void doFilterInternal(jakarta.servlet.http.HttpServletRequest request,
+            jakarta.servlet.http.HttpServletResponse response, jakarta.servlet.FilterChain filterChain)
+            throws jakarta.servlet.ServletException, IOException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'doFilterInternal'");
     }
 }

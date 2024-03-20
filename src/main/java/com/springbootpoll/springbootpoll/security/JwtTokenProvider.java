@@ -20,6 +20,7 @@ public class JwtTokenProvider {
     @Value("${app.jwtExpirationInMs}")
     private int jwtExpirationInMs;
 
+    @SuppressWarnings("deprecation")
     public String generateToken(Authentication authentication) {
 
         UserPrincipal userPrincipal = (UserPrincipal) authentication.getPrincipal();
@@ -36,6 +37,7 @@ public class JwtTokenProvider {
     }
 
     public Long getUserIdFromJWT(String token) {
+        @SuppressWarnings("deprecation")
         Claims claims = Jwts.parser()
                 .setSigningKey(jwtSecret)
                 .parseClaimsJws(token)
